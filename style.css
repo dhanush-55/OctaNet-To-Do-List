@@ -1,0 +1,66 @@
+body { 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+#todo-container {
+    background:grey;
+    width: 400px;
+    margin: 0 auto;
+    padding: 70px;
+    color:white;
+    border-radius: 10px;
+  }
+  #header {
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px; 
+  }
+  #input-box {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  #input-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(18, 245, 18);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  }
+  li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .edit-btn, .delete-btn {
+    float: right;
+    color: crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+  }
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+  }
+  
